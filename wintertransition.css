@@ -1,0 +1,13 @@
+div {
+  width:600px;
+  height: 400px;
+  background-image: url('winter.jpg');
+  background-size: 100% 100%;
+  transition: 1s;
+}
+
+div:hover {
+	width: 1200px;
+	height: 800px;
+	transform: rotate(360deg);
+}

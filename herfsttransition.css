@@ -1,0 +1,11 @@
+div {
+  width: 600px;
+  height: 400px;
+  background-image: url('herfst.jpg');
+  transition: width 3s;
+  transition-timing-function: ease;
+}
+
+div:hover {
+  width: 1200px;
+}
