@@ -1,0 +1,15 @@
+div {
+  width:600px;
+  height: 400px;
+  background-image: url('zomer.jpg');
+  animation-name: zomer;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+
+@keyframes zomer { 
+0% {background-image: url('zomer.jpg');}
+25% {background-image: url('herfst.jpg');}
+50% {background-image: url('winter.jpg');}
+100% {background-image: url('lente.jpg');}
+} 
